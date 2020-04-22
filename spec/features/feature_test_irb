@@ -1,0 +1,6 @@
+> require './lib/bank_account.rb'
+=> true
+> bank_account = BankAccount.new
+=> #<BankAccount:0x00007fef951c6718>
+> bank_account.make_deposit(500)
+=> 
