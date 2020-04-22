@@ -27,6 +27,11 @@ As a customer,
 So I can check my bank account,
 I would like to be able to print my bank statement.
 ```
+```
+As a customer,
+So I don't have a minimum balance,
+I would like to have a minimum balance on my bank account.
+```
 
 |Input|
 |-----|

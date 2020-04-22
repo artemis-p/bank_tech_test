@@ -1,3 +1,10 @@
+> require './lib/bank.rb'
+=> true
+> bank = Bank.new
+=> #<Bank:0x00007f9369088258>
+> bank_account = bank.open_account
+=> 
+
 > require './lib/bank_account.rb'
 => true
 > bank_account = BankAccount.new
