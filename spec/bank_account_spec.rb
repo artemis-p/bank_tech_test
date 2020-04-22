@@ -1,6 +1,7 @@
 require 'bank_account'
 
 describe BankAccount do
+  it { is_expected.to respond_to :created? }
   it 'has a balance of zero' do
     expect(subject.balance).to eq(0)
   end
